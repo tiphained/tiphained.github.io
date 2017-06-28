@@ -33,7 +33,7 @@
 						<a href="{{ site.baseurl }}/index.html" id="logo">
 							Tiphaine DELARUE
 							<br />
-							<em>Ergothérapeute et équithérapeute</em>
+							<em>Ergothérapeute et &Eacute;quithérapeute</em>
 						</a>
 					</h1>
 
@@ -41,12 +41,13 @@
 					<nav id="nav">
 						<ul>
 							{% assign current = page.url | downcase | split: '/' %}
-							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Présentation</a></li>
-							<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">Ergothérapie et équithérapie</a></li>
-							<li {% if current[1] == 'left-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Pourquoi le cheval?</a></li>
-							<li {% if current[1] == 'right-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Pour qui? Pourquoi?</a></li>
-							<li {% if current[1] == 'two-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/two-sidebar.html">Tarif et modalités</a></li>
-							<li {% if current[1] == 'no-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/no-sidebar.html">Contact</a></li>
+							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Accueil</a></li>
+							<li {% if current[1] == 'presentation.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/presentation.html">Présentation</a></li>
+							<li {% if current[1] == 'ergotherapie-equitherapie.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/ergotherapie-equitherapie.html">Ergothérapie et équithérapie</a></li>
+							<li {% if current[1] == 'pourquoi-le-cheval.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/pourquoi-le-cheval.html">Pourquoi le cheval?</a></li>
+							<li {% if current[1] == 'pour-qui-pourquoi.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/pour-qui-pourquoi.html">Pour qui? Pourquoi?</a></li>
+							<li {% if current[1] == 'tarifs-modalites.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/tarifs-modalites.html">Tarif et modalités</a></li>
+							<li {% if current[1] == 'contact.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
 						</ul>
 					</nav>
 
