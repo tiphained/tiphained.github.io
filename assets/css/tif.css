@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Patrick+Hand+SC|Caveat');
+
+#header h1 a {
+  font-family: 'Caveat Brush', cursive;
+  color: #003265;
+  font-size: 40px;
+}
+
+#header h1 a em {
+  font-family: 'Patrick Hand SC', cursive;
+  color: #323232;
+}
+
+h2 {
+  font-family: 'Caveat', cursive;
+}
