@@ -14,3 +14,50 @@
 h2 {
   font-family: 'Caveat', cursive;
 }
+
+h2.citation {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.auteur_citation {
+  text-align: right;
+}
+
+/* Conteneur de page */
+.wrapper {
+  padding: 8px;
+}
+
+.wrapper.style1 {
+  background-image: url('images/paille.jpg');
+}
+
+.container .row {
+  background-color: #FFF;
+}
+
+.container {
+  width: 1000px;
+}
+
+.row.double {
+  margin-left: 0;
+}
+
+.row.double > * {
+  padding-left: 0;
+}
+
+.row.double .content {
+  padding: 15px;
+}
+
+.image.featured {
+  margin-bottom: 15px;
+}
+
+/* Liens du menu */
+#nav > ul > li a {
+  padding: 15px 2px 14px 2px;
+}
