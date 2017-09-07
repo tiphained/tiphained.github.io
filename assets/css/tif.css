@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Patrick+Hand+SC|Caveat');
 
+body, input, select, textarea {
+		line-height: 1.3em;
+}
+
 strong {
   color: #7BA800;
+}
+
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+#header {
+  background: #FFFFFF url('images/logo.png') no-repeat 440px 5px;
 }
 
 #header h1 a {
@@ -13,6 +26,14 @@ strong {
 #header h1 a em {
   font-family: 'Patrick Hand SC', cursive;
   color: #323232;
+}
+
+#footer {
+  padding-top: 1em;
+}
+
+#footer .copyright {
+  color: #003265;
 }
 
 h2 {
@@ -70,4 +91,25 @@ h2.head {
 /* Liens du menu */
 #nav > ul > li a {
   padding: 15px 2px 14px 2px;
+}
+
+.section {
+  overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.left.image {
+  width: 40%;
+}
+
+.coord li {
+  list-style-type: none;
+  list-style-position: outside;
 }
