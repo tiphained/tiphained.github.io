@@ -2,6 +2,7 @@
 
 body, input, select, textarea {
 		line-height: 1.3em;
+		font-weight: 500;
 }
 
 strong {
