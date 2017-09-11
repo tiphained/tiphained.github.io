@@ -9,13 +9,30 @@ strong {
   color: #7BA800;
 }
 
+strong.b {
+	color: #474747;
+}
+
+ul {
+	margin: 0 0 1.5em 0;
+}
+
 li {
   list-style-type: disc;
   list-style-position: inside;
 }
 
+p {
+	margin: 0 0 1.5em 0;
+}
+
+small {
+	font-size: 14pt;
+}
+
 #header {
   background: #FFFFFF url('images/logo.png') no-repeat 440px 5px;
+	padding: 1em 0 0 0;
 }
 
 #header h1 a {
@@ -27,6 +44,27 @@ li {
 #header h1 a em {
   font-family: 'Patrick Hand SC', cursive;
   color: #323232;
+}
+
+#logo {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 900px;
+}
+
+#logo > p {
+	float: left;
+	margin: 0;
+}
+
+#logo a {
+	border-bottom: 0px none #FFF;
+}
+
+#logo > h1 {
+	float: left;
+	margin-top: 1.5em;
+	padding-left: 3em;
 }
 
 #footer {
