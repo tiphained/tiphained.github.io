@@ -152,3 +152,16 @@ h2.head {
   list-style-type: none;
   list-style-position: outside;
 }
+
+.middle {
+	display: block;
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+.middle span {
+	height: 100px;
+	line-height: 100px;
+	display: block;
+	float: left;
+}
