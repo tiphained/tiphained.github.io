@@ -165,3 +165,44 @@ h2.head {
 	display: block;
 	float: left;
 }
+
+#calendar th,
+#calendar td {
+	height: 40px;
+	text-align: center;
+	padding: 0.5em;
+	border: 1px solid #222;
+}
+
+#calendar th {
+  color: #7BA800;
+	font-weight: bold;
+}
+
+#calendar td {
+	vertical-align: middle;
+}
+
+#calendar .hour {
+	font-weight: bold;
+}
+
+#calendar .saint-valey {
+	background-color: #CCECFF;
+}
+
+#calendar .saint-valey strong {
+	color: #003265;
+}
+
+#calendar .ecuries-du-moulin {
+	background-color: #FFFFCC;
+}
+
+#calendar .ecuries-du-moulin strong {
+	color: #FF3200;
+}
+
+#calendar .empty {
+	background-color: #E6E6E6;
+}

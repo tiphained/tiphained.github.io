@@ -49,7 +49,7 @@
 					<nav id="nav">
 						<ul>
 							{% assign current = page.url | downcase | split: '/' %}
-							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Accueil</a></li>
+							<li {% if current[1] == '' %}class="current"{% endif %}><a href="{{ site.baseurl }}/">Accueil</a></li>
 							<li {% if current[1] == 'presentation.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/presentation.html">Présentation</a></li>
 							<li {% if current[1] == 'ergotherapie-equitherapie.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/ergotherapie-equitherapie.html">Ergothérapie et équithérapie</a></li>
 							<li {% if current[1] == 'pourquoi-le-cheval.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/pourquoi-le-cheval.html">Pourquoi le cheval?</a></li>
