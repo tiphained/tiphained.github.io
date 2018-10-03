@@ -20,14 +20,18 @@ layout: default
 	            à surmonter leurs difficultés en utilisant la relation avec le cheval.
 	          </p>
 					  <div class="box post">
-							<a href="{{ site.baseurl }}/assets/images/de_ergotherapeute.png" class="image left" target="_blank"><img src="{{ site.baseurl }}/assets/images/de_ergotherapeute_mini.png" alt="" /></a>
+							<a href="{{ site.baseurl }}/assets/images/de_ergotherapeute.png" class="image left" target="_blank" title="Diplôme ergothérapeute">
+								<img src="{{ site.baseurl }}/assets/images/de_ergotherapeute_mini.png" alt="" />
+							</a>
 							<div class="inner">
 								<h3><strong>Diplôme d'&Eacute;tat d'Ergothérapeute</strong></h3>
 								<p>formée à l'<a href="http://www.ifpek.org" target="_blank">Institut de Formation en Ergothérapie</a> (IFPEK) à Rennes (3 ans de formation)</p>
 							</div>
 						</div>
 						<div class="box post">
-							<a href="{{ site.baseurl }}/assets/images/de_equitherapeute.png" class="image left" target="_blank"><img src="{{ site.baseurl }}/assets/images/de_equitherapeute_mini.png" alt="" /></a>
+							<a href="{{ site.baseurl }}/assets/images/de_equitherapeute.png" class="image left" target="_blank" title="Diplôme équithérapie">
+								<img src="{{ site.baseurl }}/assets/images/de_equitherapeute_mini.png" alt="" />
+							</a>
 							<div class="inner">
 								<h3><strong>Diplôme privé d'&Eacute;quithérapeute</strong></h3>
 								<p>formée à l'<a href="http://www.ifequitherapie.fr" target="_blank">Institut de Formation en Equithérapie</a> (IFEq) à Paris</p>
@@ -46,33 +50,6 @@ layout: default
 	</div>
 </section>
 
-<!-- Image popup -->
-<div id="popup">
-	  <p>
-	    <a href="#" id="close"> fermer </a>
-	  </p>
-    <img id="popup_img" src="" />
-</div>
-
-<script type=""text/javascript>
-    var popup = $("#popup");
-		var popup_img = $("#popup img")[0];
-    popup.hide();
-
-		// Affichage de la popup au clic sur un lien d'image
-    $(".image").on("click", function(e) {
-				var imgPath = e.currentTarget.href;
-				popup_img.src = imgPath;
-				popup.show();
-
-			  return false;
-		});
-
-    // Popup masquée au clic sur la page
-		$(document).on('click', function(e) {
-			  popup.hide();
-		});
-		$("#popup #close").on("click", function(e) {
-			  popup.hide();
-		});
+<script type="text/javascript">
+    $('.content a.image').simpleLightbox();
 </script>

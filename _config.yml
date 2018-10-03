@@ -1,4 +1,6 @@
 name: Ergothérapeute et équithérapeute Dinan Saint-Malo
 description: Ergothérapeute et équithérapeute Dinan Saint-Malo Rennes - Ille et Vilaine - Bretagne
-paginate: 10
 baseurl: ''
+
+plugins:
+  - jekyll-sitemap

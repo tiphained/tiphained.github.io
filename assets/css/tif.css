@@ -31,7 +31,6 @@ small {
 }
 
 #header {
-  background: #FFFFFF url('images/logo.png') no-repeat 440px 5px;
 	padding: 1em 0 0 0;
 }
 
@@ -100,7 +99,7 @@ h2.head {
 }
 
 .wrapper.style1 {
-  background-image: url('images/paille.jpg');
+  background-image: url('images/foin.jpg');
 }
 
 .container .row {
