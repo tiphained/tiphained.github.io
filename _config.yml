@@ -5,4 +5,4 @@ baseurl: ''
 plugins:
   - jekyll-sitemap
 
-exclude: ["docs"]
+exclude: ["Gemfile", "Gemfile.lock", "docs"]
