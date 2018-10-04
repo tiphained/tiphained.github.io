@@ -5,5 +5,4 @@ baseurl: ''
 plugins:
   - jekyll-sitemap
 
-exclude:
-  - docs
+exclude: ["docs"]
