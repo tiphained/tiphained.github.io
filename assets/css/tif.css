@@ -206,6 +206,20 @@ h2.head {
 	background-color: #E6E6E6;
 }
 
+#calendar .smaller {
+	font-size: 18px;
+}
+
+#calendar .smaller hr {
+	border: none;
+	height: 1px;
+	/* Set the hr color */
+	color: #666;  /* old IE */
+	background-color: #666;  /* Modern Browsers */
+	width: 80%;
+	margin: 0 auto;
+}
+
 #popup {
   position: fixed;
 	top: 50px;
@@ -220,4 +234,18 @@ h2.head {
 	margin: 0;
 	padding: 0;
 	text-align: right;
+}
+
+#annulation {
+	border: 2px solid #7BA800;
+	padding: 5px;
+}
+
+#annulation h3 {
+	margin: 0 auto 10px auto;
+	border-bottom: 1px solid #888;
+}
+
+#annulation strong {
+	color: #333;
 }
